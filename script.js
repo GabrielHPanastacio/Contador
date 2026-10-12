@@ -16,7 +16,7 @@ btnDecrease.addEventListener('click', function(){
 
     currentValue = currentValue - 1;
 
-    currentValue.textContent = currentValue;
+    counterValue.textContent = currentValue;
 });
 
 btnReset.addEventListener('click', function(){
